@@ -1,0 +1,98 @@
+*{box-sizing:border-box;}
+
+
+#titulo{
+    font-weight: lighter;
+}
+
+
+#error{
+    font-weight: lighter;
+    color: red;
+    /*visibility: hidden;*/
+}
+
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:250px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:10px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+div.tablas{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+table.tablagris {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width:100%;
+    border-collapse: collapse;
+}
+
+table.tablagris td, table.tablagris th {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+}
+
+table.tablagris tbody td {
+    font-size: 17px;
+}
+
+
+table.tablagris thead {
+    background: #B2B3B1;
+    background: -moz-linear-gradient(top, #c5c6c4 0%, #b9bab8 66%, #B2B3B1 100%);
+    background: -webkit-linear-gradient(top, #c5c6c4 0%, #b9bab8 66%, #B2B3B1 100%);
+    background: linear-gradient(to bottom, #c5c6c4 0%, #b9bab8 66%, #B2B3B1 100%);
+}
+
+
+table.tablagris thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+table.tablagris tfoot td {
+    font-size: 14px;
+}
+
+table.tablagris tfoot .links {
+    text-align: right;
+}
+
+table.tablagris tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
